@@ -10,6 +10,7 @@
 
 ### 3 Step:
 Install the VSCode extension: Remote Development
+![Screenshot](remote_development.png)
 
 ### 4 Step:
 ```console
