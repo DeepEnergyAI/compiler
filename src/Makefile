@@ -10,7 +10,8 @@
 # define the Java compiler and flags
 ###
 JC = javac
-FLAGS = -g
+FLAGS = -g -cp .:java-cup-11b-runtime.jar
+RFLAGS = -cp .:java-cup-11b-runtime.jar
 
 ###
 # Here are the rules.
@@ -31,10 +32,13 @@ sym.class: sym.java
 Errors.class: Errors.java
 	$(JC) $(FLAGS) Errors.java
 
+build_P2: P2.class Yylex.class simple.jlex.java sym.class Errors.class
+
+P2: $(test_file) build_P2 
+	java $(RFLAGS) P2 $(test_file)
 ###
 # handout
 ###
-
 handout:
 	zip handout.zip Errors.java Makefile simple.jlex P2.java test.sim test2.sim sym.java eof.sim
 ###
