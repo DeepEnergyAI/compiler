@@ -15,6 +15,15 @@ Install the VSCode extension: Remote Development
 ```console
 git clone https://github.com/MajorLad/compiler.git
 ```
+### 5 Step:
+Open the project with vscode
+```console
+cd compiler
+code .
+```
+### 6 Step:
+
+
 
 ## Ref:
 https://code.visualstudio.com/docs/containers/choosing-dev-environment
