@@ -13,7 +13,7 @@ Install the VSCode extension: Remote Development
 
 ### 4 Step:
 ```console
-git clone https://github.com/MajorLad/compiler.git
+git clone https://github.com/FlorianHuberHAW/compiler.git
 ```
 ### 5 Step:
 Open the project with vscode
