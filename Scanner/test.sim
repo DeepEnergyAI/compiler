@@ -1,0 +1,32 @@
+1 2 12 1+ 4
+
+2147483647 45
+2147483648
+3
+String
+System.out.println
+boolean
+class do else false
+if int public return static true void while
+
+gueltig
+""
+"&?#"
+"use \n to denote a newline charater"
+
+illegal
+"unterminated
+"also unterminated \"
+"backslash followed by space : \ is not allowed"
+"bad escaped char: \a AND not terminated
+// die ist ein kommentar
+
+/* dies ist ein mehrzeiliger
+kommentar */
+
+
+Symbols
+
+{ } ( ) , = ; + - *
+/
+! && || == != < > <= >=
