@@ -24,6 +24,11 @@ code .
 ### 6 Step:
 
 
+## Progamming
+
+### Run P2
+```console
+make P2 test_file=test.sim
 
 ## Ref:
 https://code.visualstudio.com/docs/containers/choosing-dev-environment
