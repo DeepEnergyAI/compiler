@@ -16,6 +16,8 @@ Install the VSCode extension: Remote Development
 ```console
 git clone https://github.com/FlorianHuberHAW/compiler.git
 ```
+![Screenshot](git_clone.png)
+
 ### 5 Step:
 Open the project with vscode
 ```console
@@ -23,7 +25,9 @@ cd compiler
 code .
 ```
 ### 6 Step:
+Accept the option to Reopen in Container or set it manually in the left bottom corner.
 
+![Screenshot](open_project.png)
 
 ## Progamming
 
